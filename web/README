@@ -1,0 +1,13 @@
+very basic, yet modern, MVC framework - by Barak Bloch
+
+The MVC use psr-4 and composer autoload.
+beside composer autoload, monolog used for logs. everything  else is pure PHP5
+
+
+** TODO **
+
+ 1. use of config/routing for a better router (based on config files)
+ 2. use of response object to response with error codes etc.
+ 3. improve the use of php SUPER GLOBALS
+ 4. add Twitter bootstrap
+ 5. add twig/smarty

@@ -1,0 +1,13 @@
+{
+    "db" : {
+        "username" : "root",
+        "password" : "root",
+        "host" : "localhost",
+        "dbname" : "tutorial"
+    },
+    "app" : {
+        "basePath" : "/Applications/MAMP/htdocs/bmvc",
+        "baseUrl" : "http://127.0.0.1:8888/bmvc/"
+    }
+
+}

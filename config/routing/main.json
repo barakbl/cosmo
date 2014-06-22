@@ -1,0 +1,11 @@
+{
+    "homepage" : {
+        "path" : "/",
+        "controller" : "Src:Main:index"
+    },
+    "viewPost" : {
+        "path" : "/post/{id:int}",
+        "controller" : "Src:Main:post"
+    }
+
+}
