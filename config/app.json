@@ -6,8 +6,9 @@
         "dbname" : "tutorial"
     },
     "app" : {
-        "basePath" : "/Applications/MAMP/htdocs/bmvc",
-        "baseUrl" : "http://127.0.0.1:8888/bmvc/"
+        "basePath" : "/Applications/MAMP/htdocs/cosmo/web",
+        "baseUrl" : "http://127.0.0.1:8888/cosmo/web",
+        "env" : "dev"
     }
 
 }

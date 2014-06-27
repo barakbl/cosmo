@@ -24,7 +24,9 @@ class Application {
 
         $className = $route['class'];
         $class = "Controllers\\$className";
+
         $app = new $class;
+
 
         call_user_func( array( $app, $route['action'] ) );
     }

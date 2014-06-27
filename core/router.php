@@ -29,7 +29,12 @@ class Router {
     }
 
     public function getRoute($server) {
-        $pathInfo = substr($server['PATH_INFO'],1);
+        if(isset($server['PATH_INFO'])) {
+            $pathInfo = substr($server['PATH_INFO'],1);
+        } else {
+            $pathInfo = '/';
+        }
+
         $pieces = explode('/', $pathInfo);
         $ret = array();
 

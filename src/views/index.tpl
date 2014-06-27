@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <title><?php echo $params['title']; ?></title>
-
+    <link rel="shortcut icon" href="<?php echo $baseUrl . '/static/favicon.ico' ?>">
     <link rel="stylesheet" href="<?php echo $baseUrl . '/static/css/site.css' ?>" type="text/css" media="screen" />
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
