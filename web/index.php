@@ -4,8 +4,10 @@ require_once APP_ROOT_DIR . 'vendor/autoload.php';
 
 ini_set('display_errors', false);
 
+
 /* FIXME - move to a normal class :) */
 function handleShutdown() {
+
     if (($error = error_get_last())) {
         if(!headers_sent()) {
             header("HTTP/1.0 500  Internal Server Error");
