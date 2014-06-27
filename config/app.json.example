@@ -3,12 +3,12 @@
         "username" : "root",
         "password" : "root",
         "host" : "localhost",
-        "dbname" : "tutorial"
+        "dbname" : "mydbname"
     },
     "app" : {
-        "basePath" : "/Applications/MAMP/htdocs/cosmo/web",
-        "baseUrl" : "http://127.0.0.1:8888/cosmo/web",
-        "env" : "dev"
+        "basePath" : "/var/www/html/cosmo/web",
+        "baseUrl" : "http://localhost/",
+        "env" : "prod"
     }
 
 }
